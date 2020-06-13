@@ -10,16 +10,21 @@
 <body>
     <h1>Formulários</h1>
 
-    <h2>Exemplo CSS</h2>
+    <h2 data-css="Exemplo CSS">Exemplo CSS</h2>
     <form>
         <label for="nome">
             Nome Completo:<br/>
-            <input type="text" name="nome" id="nome">
+            <input type="text" name="nome" id="nome" required>
+        </label>
+
+        <label for="email">
+            Email:<br/>
+            <input type="email" name="email" id="email" required>
         </label>
 
         <label for="descricao">
             Descrição: <br />
-            <textarea name="descricao" id="descricao"></textarea>
+            <textarea name="descricao" id="descricao" required></textarea>
         </label>
 
         <label for="categoria">

@@ -24,7 +24,8 @@ Meus estudos em HTML e CSS.
 - Formulários
 - Input's
 - Responsividade
-
+- Header, Nav, Footer
+- Section, Article, Aside, Time
 
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

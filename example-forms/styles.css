@@ -12,6 +12,7 @@ label {
 }
 
 input[type=text],
+input[type=email],
 textarea,
 select {
     padding: 8px;

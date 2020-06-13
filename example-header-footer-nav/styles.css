@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background-color: #CCC;
+}
+
+nav {
+    height: 50px;
+    background-color: #999;
+}
+
+footer {
+    height: 100px;
+    background-color: #CCC;
+}
+
+#section1 {
+    height: 500px;
+    width: 100%;
+    background-color: green;
+}
+
+#section2 {
+    height: 500px;
+    width: 100%;
+    background-color: blue;
+}
+
+#section3 {
+    height: 500px;
+    width: 100%;
+    background-color: red;
+}
