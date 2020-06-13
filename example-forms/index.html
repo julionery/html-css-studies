@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>Formulários</h1>
+
+    <h2>Exemplo CSS</h2>
+    <form>
+        <label for="nome">
+            Nome Completo:<br/>
+            <input type="text" name="nome" id="nome">
+        </label>
+
+        <label for="descricao">
+            Descrição: <br />
+            <textarea name="descricao" id="descricao"></textarea>
+        </label>
+
+        <label for="categoria">
+            Categoria: <br />
+            <select name="categoria" id="categoria">
+                <option value="1">Categoria 1</option>
+                <option value="2">Categoria 2</option>
+                <option value="3">Categoria 3</option>
+                <option value="4">Categoria 4</option>
+                <option value="5">Categoria 5</option>
+            </select>
+        </label>
+
+        <label for="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            Eu declado que li e aceito os <a href="pages/terms.html" target="_blank" class="termsLink">termos de uso</a>.
+        </label>
+
+        <button>
+            Fazer Cadastro
+        </button>
+
+    </form>
+
+</body>
+
+</html>

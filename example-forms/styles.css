@@ -1,0 +1,48 @@
+body {
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 16px;
+}
+
+input[type=text],
+textarea,
+select {
+    padding: 8px;
+    width: 500px;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    outline: 0;
+    margin-top: 6px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+.termsLink {
+    color: #000;
+    text-decoration: none;
+}
+
+.termsLink:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    background-color: #EEE;
+}
+
+button:hover {
+    background-color: #DDD;
+}

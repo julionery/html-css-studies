@@ -6,6 +6,26 @@ Meus estudos em HTML e CSS.
 - HTML
 - CSS
 
+### :bookmark_tabs: Tópicos
+- Tags HTML
+- CSS Inline
+- CSS Interno
+- CSS Externo
+- Cores no CSS
+- Bordas no CSS
+- Margins e Paddings no CSS
+- Width e Height no CSS
+- Links
+- Formatação de Textos no HTML
+- Formatação de Textos no CSS
+- Fontes Externas
+- Listas no HTML
+- Tabelas no HTML
+- Formulários
+- Input's
+- Responsividade
+
+
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 

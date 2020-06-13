@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Formulários</h1>
+
+    <h2>Input's de HTML</h2>
+    <form action="pages/login.html" method="GET">
+        <p>text: <input type="text" name="texto"></p>
+        <p>password: <input type="password" name="password"></p>
+        <p>checkbox: <input type="checkbox" name="checkbox"></p>
+        <p>radio: <input type="radio" name="sexo"><input type="radio" name="sexo"></p>
+        <p>submit: <input type="submit" value="Enviar Cadastro" /></p>
+    </form>
+
+    <br />
+    <h2>Input's de HTML5</h2>
+    <form action="">
+        <p>color: <input type="color" name="color"></p>
+        <p>date: <input type="date" name="date"></p>
+        <p>datetime-local: <input type="datetime-local" name="datetime"></p>
+        <p>email: <input type="email" name="email" value="teste@teste.com"></p>
+        <p>month: <input type="month" name="month"></p>
+        <p>week: <input type="week" name="week"></p>
+        <p>number: <input type="number" name="number"></p>
+        <p>range: <input type="range" name="range"></p>
+        <p>search: <input type="search" name="search"></p>
+        <p>url: <input type="url" name="url"></p>
+    </form>
+
+    <br />
+    <h2>Demais Elementos</h2>
+    <form action="pages/login.html" method="GET">
+        <p>select:
+            <select name="order">
+                <option selected></option>
+                <option value="best-selers">Recentes</option>
+                <option value="last">Mais Vendidos</option>
+            </select>
+        </p>
+
+        <p>select multiple:
+            <select name="order[]" size="2" multiple>
+                <option selected></option>
+                <option value="best-selers">Recentes</option>
+                <option value="last">Mais Vendidos</option>
+            </select>
+        </p>
+
+        <p>textarea (multiline):
+            <textarea name="textarea" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>label:
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" id="nome">
+        </p>
+
+        <label>
+            <input type="checkbox" name="terms" id="terms">
+            Eu declaro que li e aceito os termos.<br />(A TAG label faz direcionar para a tag relacionada no id ou dentro da própria label)
+        </label>
+        <br />
+        <p>button:
+            <button>Texto do próprio Botão</button>
+        </p>
+
+    </form>
+
+</body>
+
+</html>
