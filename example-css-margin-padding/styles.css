@@ -1,0 +1,31 @@
+/* PADDING = ESPAÇAMENTO INTERNO DO ELEMENTO */
+
+.exemplo {
+    border: 5px solid #00FF00;
+    padding: 10px;
+}
+
+.exemplo2 {
+    margin-top: 10px;
+    border: 5px solid #00FF00;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+
+/* BORDER = ESPAÇAMENTO EXTERNO DO ELEMENTO */
+
+.exemplo3 {
+    border: 5px solid #00FF00;
+    margin: 10px;
+}
+
+.exemplo4 {
+    border: 5px solid #00FF00;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}

@@ -1,0 +1,52 @@
+/* 
+    ANOTAÇÕES
+
+    o min-height, max-height, min-width, max-width 
+    sempre tem preferência sobre o height e width.  
+
+    O * aplica o efeito em todos os elementos da tela.
+
+    box-sizing: content-box; por padrão vem o content-box e ele faz com q o valor da borda e padding não entre no total do elemento.
+                border-box; remove o tamanho da borda e do padding do tamanho do elemento.
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.exemplo {
+    background-color: #000000;
+    /* 
+        width: 100%;
+        width: 100px;
+        width: auto; 
+    */
+    height: 100px;
+    /* 
+        height: 100%;
+        height: auto; 
+    */
+}
+
+.exemplo2 {
+    background-color: #FF0000;
+    min-height: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
+
+.exemplo3 {
+    margin: 20px;
+    background-color: #00FF00;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #000000;
+}
