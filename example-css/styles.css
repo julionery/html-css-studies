@@ -1,0 +1,62 @@
+/* First type */
+
+img {
+    width: 200px;
+}
+
+#titulo {
+    color: green;
+}
+
+.texto {
+    color: red;
+}
+
+
+/* Second type */
+
+#titulo,
+.texto {
+    color: blue;
+    font-size: 25px;
+}
+
+.texto {
+    font-weight: bold;
+}
+
+#titulo {
+    font-weight: normal;
+}
+
+
+/* Third type */
+
+ol li {
+    color: tomato;
+}
+
+
+/* 
+  ANOTAÇÕES
+
+  NOME_DO_ELEMENTO {
+
+  }
+
+  #ID_DO_ELEMENTO {
+
+  }
+
+  .CLASS_DO_ELEMENTO {
+
+  }
+
+  ELEMENTO, OUTRO_ELEMENTO {
+
+  }
+
+  ELEMENTO OUTRO_ELEMENTO {
+
+  } 
+*/
