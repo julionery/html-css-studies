@@ -1,0 +1,16 @@
+h1 { 
+  color: grey; 
+  font-size: 55px;
+}
+a {
+  color: red;
+  font-size: 30px;
+}
+img {
+  padding-top: 25px;
+  width: 250px;
+}
+li {
+  font-weight: bold;
+  color: violet;
+}
