@@ -26,6 +26,7 @@ Meus estudos em HTML e CSS.
 - Responsividade
 - Header, Nav, Footer
 - Section, Article, Aside, Time
+- Media Query
 
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
