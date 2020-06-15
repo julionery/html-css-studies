@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    margin: 10px;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDDDDD;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div10 {
+    align-self: flex-start;
+}
+
+.div15 {
+    align-self: flex-end;
+}
+
+.div7 {
+    order: 1;
+}
+
+.div4 {
+    order: -1;
+}
+
+.container2 {
+    margin: 10px;
+    display: flex;
+    margin: 10px;
+    height: 600px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDDDDD;
+    align-content: flex-end;
+}
+
+.container2 div {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}

@@ -39,6 +39,7 @@ Meus estudos em HTML e CSS.
 - Webkit
 - WordWrap
 - Meta Tag (Social Sharing)
+- Flexbox
 
 ### :link: Links Úteis
 - [Normalize.css](https://github.com/necolas/normalize.css/)

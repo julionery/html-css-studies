@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    background-color: #DDDDDD;
+    margin-bottom: 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #DDDDDD;
+}
+
+.container div,
+.container2 div {
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #DDDDDD;
+    margin: 10px;
+}
+
+.container3 div {
+    flex: 1;
+    background-color: #0000FF;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    background-color: #DDDDDD;
+    margin: 10px;
+}
+
+.div1 {
+    flex: 1;
+    background-color: #00FF00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div2 {
+    flex: 1;
+    background-color: #00FF00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div3 {
+    flex: 2;
+    background-color: #00FF00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container5 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-flow: row wrap; */
+    /* flex-flow: row nowrap; */
+    background-color: #DDDDDD;
+    margin: 10px;
+}
+
+.container5 div {
+    width: 200px;
+    background-color: #00FFFF;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}

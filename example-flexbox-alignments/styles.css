@@ -1,0 +1,124 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #DDDDDD;
+    margin: 10px;
+}
+
+.container div {
+    width: 200px;
+    background-color: royalblue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+/* 
+justify-content => ALINHA NA DIREÇÃO QUE ESTÁ SENDO INSERIDA
+align-items => ALINHA NA DIREÇÃO CONTRÁRIA AO justify-content 
+*/
+
+.container2 {
+    margin: 10px;
+    display: flex;
+    margin: 10px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDDDDD;
+}
+
+.container2 div {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container3 {
+    margin: 10px;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDDDDD;
+}
+
+.container3 div,
+.container4 div,
+.container5 div,
+.container6 div,
+.container7 div,
+.container8 div,
+.container9 div {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container4 {
+    margin: 10px;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #DDDDDD;
+}
+
+.container5 {
+    margin: 10px;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #DDDDDD;
+}
+
+.container6 {
+    margin: 10px;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #DDDDDD;
+}
+
+.container7 {
+    margin: 10px;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #DDDDDD;
+}
+
+.container8 {
+    margin: 10px;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DDDDDD;
+}
+
+.container9 {
+    margin: 10px;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #DDDDDD;
+}
