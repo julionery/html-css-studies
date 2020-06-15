@@ -1,0 +1,10 @@
+body {
+    margin: 50px;
+}
+
+.exemplo {
+    width: 150px;
+    height: 400px;
+    border: 1px solid #000;
+    word-wrap: break-word;
+}

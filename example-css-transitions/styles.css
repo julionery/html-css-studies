@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition: all 1s linear;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.exemplo:hover {
+    width: 300px;
+    height: 300px;
+}
+
+a {
+    color: #000;
+    transition: all 0.5s linear;
+}
+
+a:hover {
+    color: #FF0000;
+}

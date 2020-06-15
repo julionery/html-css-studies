@@ -33,9 +33,16 @@ Meus estudos em HTML e CSS.
 - Size e MaxLength
 - AutoComplete
 - Degradê
+- Animações
+- Sombras
+- Transições
+- Webkit
+- WordWrap
+- Meta Tag (Social Sharing)
 
 ### :link: Links Úteis
 - [Normalize.css](https://github.com/necolas/normalize.css/)
+- [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
 
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

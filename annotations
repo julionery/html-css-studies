@@ -10,3 +10,12 @@ tamanho da tela do dispisitivo.
 
 
 Normalize.css => Padroniza o comportamento do site em todos os navegadores.
+
+
+Webkit => Engine responsável por desenhar o html e css na tela.
+  - IE = Trident
+  - Edge = EdgeHTML
+  - Firefox = Gecko
+  - Opera = Webkit
+  - Safari = Webkit
+  - Chrome = Webkit Melhorada (Blink)
