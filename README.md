@@ -42,6 +42,7 @@ Meus estudos em HTML e CSS.
 
 ### :link: Links Úteis
 - [Normalize.css](https://github.com/necolas/normalize.css/)
+- [Facebook Sharing Docs](https://developers.facebook.com/docs/sharing/webmasters)
 - [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
 
 ## :memo: Licença
