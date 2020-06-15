@@ -15,18 +15,27 @@ Meus estudos em HTML e CSS.
 - Bordas no CSS
 - Margins e Paddings no CSS
 - Width e Height no CSS
-- Links
-- Formatação de Textos no HTML
 - Formatação de Textos no CSS
-- Fontes Externas
+- Formatação de Textos no HTML
 - Listas no HTML
 - Tabelas no HTML
+- Links
+- Fontes Externas
 - Formulários
 - Input's
 - Responsividade
 - Header, Nav, Footer
 - Section, Article, Aside, Time
 - Media Query
+- Viewport
+- Placeholder
+- Autofocus
+- Size e MaxLength
+- AutoComplete
+- Degradê
+
+### :link: Links Úteis
+- [Normalize.css](https://github.com/necolas/normalize.css/)
 
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

@@ -1,4 +1,12 @@
-3 formas de inserção do CSS no HTML;
+Três formas de inserção do CSS no HTML:
 - CSS inline
 - CSS interno
 - CSS externo
+
+
+Viewport: utilizada para definir a responsividade de acordo com o 
+tamanho da tela do dispisitivo. 
+  - user-scalable=no => bloqueia o site para não permitir dar zoom.
+
+
+Normalize.css => Padroniza o comportamento do site em todos os navegadores.

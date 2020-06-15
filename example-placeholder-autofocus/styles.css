@@ -1,0 +1,22 @@
+body {
+    background-color: #DDD;
+    margin: 25px;
+    justify-content: center;
+    display: flex;
+}
+
+form {
+    background-color: #CCC;
+    padding: 16px;
+    width: 200px;
+    display: grid;
+}
+
+img {
+    width: 200px;
+    margin-bottom: 16px;
+}
+
+input {
+    padding: 8px;
+}

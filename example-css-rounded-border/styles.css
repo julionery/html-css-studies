@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#teste {
+    background-color: green;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#teste2 {
+    background-color: rebeccapurple;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#teste3 {
+    background-color: royalblue;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 100px;
+}
+
+input {
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+}
