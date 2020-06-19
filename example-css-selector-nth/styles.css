@@ -1,0 +1,8 @@
+div:nth-child(2) {
+  background-color: #FF0000;
+}
+
+div:nth-last-of-type(2) {
+  background-color: #0000FF;
+}
+

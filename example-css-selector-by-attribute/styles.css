@@ -1,0 +1,33 @@
+input, a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+[required] {
+  background-color: #FF0000;
+}
+
+a[href^="https:"]{
+  background-color: #00FFFF;
+}
+
+a[href^="http:"]{
+  background-color: #FF00FF;
+}
+
+[type=password] {
+  background-color: #0000FF;
+}
+
+a[href*="economia"]{
+  background-color: #FFFF00;
+}
+
+a[href*="futebol"]{
+  background-color: #00FF00;
+}
+
+a[href$="fred"]{
+  background-color: salmon;
+}
+

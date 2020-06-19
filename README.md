@@ -40,6 +40,12 @@ Meus estudos em HTML e CSS.
 - WordWrap
 - Meta Tag (Social Sharing)
 - Flexbox
+- Seletor pelo Atributo
+- Seletor de Elemento Vazio
+- Seletor de Primeira letra e Primeira Linha
+- Seletor de Primeiro e Último Elemento
+- Seletor Negativo
+- Seletor NTH
 
 ### :link: Links Úteis
 - [Normalize.css](https://github.com/necolas/normalize.css/)

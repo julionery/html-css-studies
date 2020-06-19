@@ -1,0 +1,27 @@
+p::first-letter {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p::first-line {
+    background-color: yellow;
+}
+
+div {
+    background-color: #0000FF;
+    width: 100px;
+    height: 100px;
+}
+
+div:first-of-type{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div:last-of-type{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* 
+body :not(div), body :not(p) {
+    background-color: #FF0000;
+} */
