@@ -1,0 +1,64 @@
+.teste {
+  background-color: #FF0000;
+  width: 200px;
+  height: 200px;
+  transform: scale(0.5);
+}
+
+.teste2 {
+  margin-top: 20px;
+  background-color: #FF0000;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  right: 0;
+  transform: scale(1, 1.5);
+}
+
+.teste3 {
+  margin-top: 150px;
+  background-color: #FF0000;
+  width: 200px;
+  height: 100px;
+  transform: scale(1);
+  transform: rotate(90deg);
+}
+
+.teste4 {
+  margin-top: 150px;
+  background-color: #FF0000;
+  width: 200px;
+  height: 100px;
+  transform: scale(1);
+  transform: rotate(150deg);
+}
+
+.teste5 {
+  margin-top: 150px;
+  background-color: #FF0000;
+  width: 200px;
+  height: 100px;
+  transform: scale(1);
+  transform: rotate(-150deg);
+}
+
+.teste6 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-top: 150px;
+  background-color: #FF0000;
+  width: 200px;
+  height: 200px;
+  transform: scale(1);
+  transform: rotate(90deg);
+}
+
+.teste7 {
+  margin-left: 200px;
+  margin-top: 150px;
+  background-color: #FF0000;
+  width: 200px;
+  height: 200px;
+  transform: skew(-20deg, 10deg);
+}

@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+}
+
+span::before {
+  content: "->";
+  background-color: #FF0000;
+  border: 1px solid #000000;
+}
+
+span::after {
+  content: "<-";
+  background-color: #FF0000;
+  border: 1px solid #000000;
+}
+
+.exemplo {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+  padding: 20px;
+  background-color: #0000FF;
+}
+
+.exemplo::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #00FF00;
+}
+
+.balao,
+.balao2,
+.balao3 {
+  background-color: #0000FF;
+  display: inline-block;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.balao::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+
+  border: 20px solid;
+  border-color: #0000FF transparent transparent transparent;
+}
+
+.balao2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+
+  border: 20px solid;
+  border-color: #0000FF #FF0000 #00FF00 #F0F0F0;
+}
+
+.balao3 {
+  margin-top: 40px;
+}
+
+.balao3::after{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -50px;
+
+  border: 20px solid;
+  border-color: transparent transparent transparent #0000FF;
+}

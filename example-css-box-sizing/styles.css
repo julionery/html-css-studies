@@ -1,0 +1,15 @@
+.teste1 {
+  width: 200px;
+  height: 200px;
+  background-color: #FF0000;
+  border: 10px solid #0000FF;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* 
+  box-sizing: border-box; 
+    =>  faz com que o tamanho do conteúdo 
+        não seja alterado com margin,padding e border.  
+
+*/

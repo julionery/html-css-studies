@@ -46,11 +46,17 @@ Meus estudos em HTML e CSS.
 - Seletor de Primeiro e Último Elemento
 - Seletor Negativo
 - Seletor NTH
+- Seletor Before/After
+- RGBA
+- Transform
+- Box-sizing
+- Estilizar o placeholder
 
 ### :link: Links Úteis
 - [Normalize.css](https://github.com/necolas/normalize.css/)
 - [Facebook Sharing Docs](https://developers.facebook.com/docs/sharing/webmasters)
 - [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
+- [HTML Color Codes](https://htmlcolorcodes.com/)
 
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

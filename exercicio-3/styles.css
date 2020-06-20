@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aviso {
+    position: fixed;
+    left: -80px;
+    top: 40px;
+    transform: rotate(-45deg);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Arial;
+    text-shadow: 0 1px 3px #444;
+    background-color: rgb(44, 135, 209);
+    padding: 15px;
+    border: 2px solid #ffffff;
+    outline: 5px solid rgb(44, 135, 209);
+    box-shadow: 0 0 25px #444444;
+}
